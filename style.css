@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.all{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 200px;
+
+}
+#card{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(78, 77, 77);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#card-in{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    top: -200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: perspective(1000px) rotateY(0deg);
+   transition: all 0.3s ease-out;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+
+}
+.inputs input{
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    margin: 20px 0;
+    border: none;
+    padding-left: 5px;
+}
+.selected{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.selected select{
+    margin: 0 10px;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 5px;
+    border: none;
+
+
+}
+#cvv{
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin-left: 5px;
+    border: none;
+}
+
+#visalogo{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#cvvno{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    
+
+}
+#idno{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    
+}
+#p{
+    margin-left: 50px;
+    color: black;
+    border: 1px solid black;
+    
+}
+#p2{
+    margin-left: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+#p4{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.vs{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#vs1{
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;
+
+}
+#visa-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+#vs2{
+    width: 250px;
+    height: 100px;
+    padding-top: 10px;
+
+}
+#qr-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+#p3{
+    color: black;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+.idd{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pp{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#btn{
+    border: 1px solid white;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+#btn:hover{
+    box-shadow: 0 0 6px white;
+    cursor: pointer;
+    margin-left: -1px;
+}
+.cvvv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+#p5{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
+#p6{
+    color: black;
+    border: 1px solid black;
+    margin-left: 20px;
+
+}
+#card-in2{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    background-color: blue;
+    top: -0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: perspective(1000px) rotateY(0deg);
+    visibility: hidden;
+    transition: all 0.3s ease-out;
+    
+}
+.black{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: -0px;
+}
+.white{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.white-in{
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+#no-con{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+#cvv2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 50px;
+    color: white;
+}
+#nfc{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+}

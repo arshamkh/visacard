@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <div id="card">
+            <div id="card-in">
+                <div id="visalogo">
+                    <div class="vs" id="vs1">
+                        <img src="nfc.png" alt="" id="qr-img">
+                    </div>
+                    <div class="vs" id="vs2">
+                        <img src="visa1.jpg" alt="" id="visa-img">
+                    </div>
+                    <div id="card-in2">
+                        <div class="black"></div>
+                        <div class="white">
+                            <div class="white-in"></div>
+                            <img src="nfc2.png" alt="" id="nfc">
+                        </div>
+                
+                        <div id="no-con">
+                            no:
+                        </div>
+                        
+                        <div id="cvv2">
+                            cvv: 
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="idno">
+                    <div class="idd">
+                        <p id="p2">your id no</p>
+                    <p id="p"></p>
+                    </div>
+                    <div class="pp">
+                        <p id="p4">card holder</p>
+                        <p id="p3"></p>
+                    </div>
+                    <div class="cvvv">
+                        <p id="p5">cvv</p>
+                        <p id="p6"></p>
+                    </div>
+                </div>
+                <div id="cvvno"></div>
+            </div>
+            <div class="inputs">
+            <input type="number" id="inp1" maxlength="16" placeholder="ID NO">
+            <input type="number" id="inp2" maxlength="5" placeholder="CARD HOLDER">
+            </div>
+            <div class="selected">
+                <select name="" id="month">
+                    <option value="month" selected disabled>month</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select name="" id="year">
+                    <option value="year" selected disabled>year</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
+                <input type="number" id="cvv" placeholder="cvv">
+            </div>
+            <button id="btn">send</button>
+        </div>
+        
+      
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
